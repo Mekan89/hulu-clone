@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Results from "../components/Results";
 import requests from "../utils/requests";
-// import Image from "next/image";
 
 export default function Home({ results }) {
   return (
@@ -21,8 +20,6 @@ export default function Home({ results }) {
   );
 }
 
-// gets rendered on the server then dispatches to the client Home()
-// ?genre=trending   url from Results component
 export const getServerSideProps = async ctx => {
   const genre = ctx.query.genre;
 

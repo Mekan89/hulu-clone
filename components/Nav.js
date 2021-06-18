@@ -6,7 +6,7 @@ function Nav() {
   return (
     <nav className="relative">
       <div className="flex px-10 space-x-10 overflow-x-scroll text-xl sm:space-x-20 sm:px-20 whitespace-nowrap scrollbar-hide">
-        {Object.entries(requests).map(([key, { title, url }]) => (
+        {Object.entries(requests).map(([key, { title }]) => (
           <h2
             key={key}
             onClick={() => router.push(`/?genre=${key}`)}

@@ -1,5 +1,4 @@
 import HeaderItem from "./HeaderItem";
-import Nav from "./Nav";
 import {
   BadgeCheckIcon,
   CollectionIcon,
